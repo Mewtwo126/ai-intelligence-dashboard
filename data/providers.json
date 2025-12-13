@@ -1,0 +1,423 @@
+{
+  "last_updated": "2025-12-06",
+  "providers": [
+    {
+      "id": "anthropic",
+      "name": "Anthropic",
+      "description": "AI safety company focused on reliable, interpretable AI systems",
+      "founded": "2021",
+      "headquarters": "San Francisco, CA",
+      "product_families": {
+        "llm_models": [
+          {
+            "name": "Claude Opus 4.5",
+            "type": "Large Language Model",
+            "description": "Most capable model for complex reasoning and creative tasks"
+          },
+          {
+            "name": "Claude Sonnet 4.5",
+            "type": "Large Language Model",
+            "description": "Balanced performance and cost for daily workflows"
+          },
+          {
+            "name": "Claude Haiku 4",
+            "type": "Large Language Model",
+            "description": "Fastest, most cost-effective model for high-volume tasks"
+          }
+        ],
+        "specialized_products": []
+      },
+      "capabilities": {
+        "text_generation": {
+          "available": true,
+          "products": [
+            "Claude Opus 4.5",
+            "Claude Sonnet 4.5",
+            "Claude Haiku 4"
+          ]
+        },
+        "image_to_text": {
+          "available": true,
+          "products": [
+            "Claude Opus 4.5",
+            "Claude Sonnet 4.5",
+            "Claude Haiku 4"
+          ],
+          "description": "Vision capabilities for analyzing images and documents"
+        },
+        "image_generation": {
+          "available": false,
+          "products": []
+        },
+        "video_generation": {
+          "available": false,
+          "products": []
+        },
+        "video_to_text": {
+          "available": false,
+          "products": []
+        },
+        "voice_input": {
+          "available": false,
+          "products": []
+        },
+        "voice_output": {
+          "available": false,
+          "products": []
+        },
+        "reasoning": {
+          "available": true,
+          "products": [
+            "Claude Opus 4.5",
+            "Claude Sonnet 4.5",
+            "Claude Haiku 4"
+          ],
+          "description": "Advanced reasoning and analysis capabilities"
+        },
+        "code_generation": {
+          "available": true,
+          "products": [
+            "Claude Opus 4.5",
+            "Claude Sonnet 4.5",
+            "Claude Haiku 4"
+          ]
+        }
+      }
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "description": "AI research and deployment company creating safe AGI",
+      "founded": "2015",
+      "headquarters": "San Francisco, CA",
+      "product_families": {
+        "llm_models": [
+          {
+            "name": "GPT-4o",
+            "type": "Large Language Model",
+            "description": "Fast multimodal model with real-time audio and vision"
+          },
+          {
+            "name": "o1",
+            "type": "Reasoning Model",
+            "description": "Deep reasoning model for complex problem-solving"
+          },
+          {
+            "name": "GPT-4o",
+            "type": "Large Language Model",
+            "description": "Fast, multimodal model for real-time applications"
+          }
+        ],
+        "specialized_products": [
+          {
+            "name": "DALL-E 3",
+            "type": "Image Generation",
+            "description": "Text-to-image generation with high quality and accuracy"
+          },
+          {
+            "name": "Sora",
+            "type": "Video Generation",
+            "description": "Text-to-video generation (limited preview)"
+          },
+          {
+            "name": "Whisper",
+            "type": "Speech Recognition",
+            "description": "Automatic speech recognition and transcription"
+          }
+        ]
+      },
+      "capabilities": {
+        "text_generation": {
+          "available": true,
+          "products": [
+            "GPT-4o",
+            "o1"
+          ]
+        },
+        "image_to_text": {
+          "available": true,
+          "products": [
+            "GPT-4o",
+            "o1"
+          ],
+          "description": "Vision capabilities across models"
+        },
+        "image_generation": {
+          "available": true,
+          "products": [
+            "DALL-E 3"
+          ],
+          "description": "High-quality image generation from text prompts"
+        },
+        "video_generation": {
+          "available": true,
+          "products": [
+            "Sora"
+          ],
+          "description": "Text-to-video generation (limited access)"
+        },
+        "video_to_text": {
+          "available": true,
+          "products": [
+            "GPT-4o"
+          ],
+          "description": "Video understanding and analysis"
+        },
+        "voice_input": {
+          "available": true,
+          "products": [
+            "GPT-4o"
+          ],
+          "description": "Speech recognition and transcription"
+        },
+        "voice_output": {
+          "available": true,
+          "products": [
+            "GPT-4o"
+          ],
+          "description": "Text-to-speech with natural voices"
+        },
+        "reasoning": {
+          "available": true,
+          "products": [
+            "o1"
+          ],
+          "description": "Extended reasoning with chain-of-thought"
+        },
+        "code_generation": {
+          "available": true,
+          "products": [
+            "GPT-4o",
+            "o1"
+          ]
+        }
+      }
+    },
+    {
+      "id": "google",
+      "name": "Google",
+      "description": "Tech giant's AI research and products division",
+      "founded": "1998",
+      "headquarters": "Mountain View, CA",
+      "product_families": {
+        "llm_models": [
+          {
+            "name": "Gemini 3 Pro",
+            "type": "Large Language Model",
+            "description": "Ultra-large context multimodal model with deep thinking"
+          },
+          {
+            "name": "Gemini 2.5 Flash",
+            "type": "Large Language Model",
+            "description": "Fast, efficient model for high-volume tasks"
+          }
+        ],
+        "specialized_products": []
+      },
+      "capabilities": {
+        "text_generation": {
+          "available": true,
+          "products": [
+            "Gemini 3 Pro",
+            "Gemini 2.5 Flash"
+          ]
+        },
+        "image_to_text": {
+          "available": true,
+          "products": [
+            "Gemini 3 Pro",
+            "Gemini 2.5 Flash"
+          ],
+          "description": "Native multimodal understanding"
+        },
+        "reasoning": {
+          "available": true,
+          "products": [
+            "Gemini 3 Pro"
+          ],
+          "description": "Deep Think mode for complex reasoning"
+        },
+        "code_generation": {
+          "available": true,
+          "products": [
+            "Gemini 3 Pro",
+            "Gemini 2.5 Flash"
+          ]
+        },
+        "nano_banana_pro": {
+          "available": true,
+          "products": [
+            "Gemini 3 Pro"
+          ],
+          "description": "Photorealistic image generation powered by Gemini"
+        },
+        "veo_3_1": {
+          "available": true,
+          "products": [
+            "Gemini 3 Pro"
+          ],
+          "description": "High-quality video generation (up to 60 seconds) powered by Gemini"
+        },
+        "gemini_live": {
+          "available": true,
+          "products": [
+            "Gemini 3 Pro",
+            "Gemini 2.5 Flash"
+          ],
+          "description": "Real-time voice conversations with input and output capabilities"
+        }
+      }
+    },
+    {
+      "id": "xai",
+      "name": "xAI",
+      "description": "Elon Musk's AI company focused on understanding the universe",
+      "founded": "2023",
+      "headquarters": "San Francisco, CA",
+      "product_families": {
+        "llm_models": [
+          {
+            "name": "Grok 4.1",
+            "type": "Large Language Model",
+            "description": "Ultra-large context model optimized for massive workloads"
+          },
+          {
+            "name": "Grok 3",
+            "type": "Large Language Model",
+            "description": "Previous generation model"
+          }
+        ],
+        "specialized_products": []
+      },
+      "capabilities": {
+        "text_generation": {
+          "available": true,
+          "products": [
+            "Grok 4.1",
+            "Grok 3"
+          ]
+        },
+        "image_to_text": {
+          "available": true,
+          "products": [
+            "Grok 4.1",
+            "Grok 3"
+          ],
+          "description": "Vision capabilities for image analysis"
+        },
+        "image_generation": {
+          "available": true,
+          "products": [
+            "Grok 4.1"
+          ],
+          "description": "Integrated image generation feature within Grok app"
+        },
+        "video_generation": {
+          "available": true,
+          "products": [
+            "Grok 4.1"
+          ],
+          "description": "Video generation within Grok mobile/web app"
+        },
+        "video_to_text": {
+          "available": true,
+          "products": [
+            "Grok 4.1"
+          ],
+          "description": "Video understanding capabilities"
+        },
+        "voice_input": {
+          "available": false,
+          "products": []
+        },
+        "voice_output": {
+          "available": false,
+          "products": []
+        },
+        "reasoning": {
+          "available": true,
+          "products": [
+            "Grok 4.1"
+          ],
+          "description": "Advanced reasoning with ultra-large context"
+        },
+        "code_generation": {
+          "available": true,
+          "products": [
+            "Grok 4.1",
+            "Grok 3"
+          ]
+        }
+      }
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "description": "Chinese AI company focused on cost-effective, high-performance models",
+      "founded": "2023",
+      "headquarters": "Hangzhou, China",
+      "product_families": {
+        "llm_models": [
+          {
+            "name": "DeepSeek-V3",
+            "type": "Large Language Model",
+            "description": "Extremely cost-effective text-only model for coding and math"
+          },
+          {
+            "name": "DeepSeek Coder",
+            "type": "Code Model",
+            "description": "Specialized coding model"
+          }
+        ],
+        "specialized_products": []
+      },
+      "capabilities": {
+        "text_generation": {
+          "available": true,
+          "products": [
+            "DeepSeek-V3",
+            "DeepSeek Coder"
+          ]
+        },
+        "image_to_text": {
+          "available": false,
+          "products": []
+        },
+        "image_generation": {
+          "available": false,
+          "products": []
+        },
+        "video_generation": {
+          "available": false,
+          "products": []
+        },
+        "video_to_text": {
+          "available": false,
+          "products": []
+        },
+        "voice_input": {
+          "available": false,
+          "products": []
+        },
+        "voice_output": {
+          "available": false,
+          "products": []
+        },
+        "reasoning": {
+          "available": true,
+          "products": [
+            "DeepSeek-V3"
+          ],
+          "description": "Strong reasoning for math and coding tasks"
+        },
+        "code_generation": {
+          "available": true,
+          "products": [
+            "DeepSeek-V3",
+            "DeepSeek Coder"
+          ]
+        }
+      }
+    }
+  ]
+}

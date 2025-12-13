@@ -1,0 +1,274 @@
+{
+  "last_updated": "2025-12-07",
+  "models": [
+    {
+      "id": "claude-opus-4.5",
+      "provider": "Anthropic",
+      "family": "Claude",
+      "name": "Claude Opus 4.5",
+      "release_date": "2024-11-01",
+      "modalities": ["text", "images", "documents"],
+      "features": {
+        "context_window": 200000,
+        "output_tokens": 16384,
+        "vision": true,
+        "streaming": true
+      },
+      "pricing": {
+        "input_per_1m_tokens": 15.00,
+        "output_per_1m_tokens": 75.00,
+        "currency": "USD",
+        "last_updated": "2025-12-06"
+      },
+      "performance": {
+        "speed_tier": "medium",
+        "notes": "Most capable model, slower than Sonnet/Haiku"
+      },
+      "use_cases": ["complex reasoning", "research", "creative writing", "coding"],
+      "last_modified": "2025-12-06"
+    },
+    {
+      "id": "claude-sonnet-4.5",
+      "provider": "Anthropic",
+      "family": "Claude",
+      "name": "Claude Sonnet 4.5",
+      "release_date": "2024-09-29",
+      "modalities": ["text", "images", "documents"],
+      "features": {
+        "context_window": 200000,
+        "output_tokens": 8192,
+        "vision": true,
+        "streaming": true
+      },
+      "pricing": {
+        "input_per_1m_tokens": 3.00,
+        "output_per_1m_tokens": 15.00,
+        "currency": "USD",
+        "last_updated": "2025-12-06"
+      },
+      "performance": {
+        "speed_tier": "fast",
+        "notes": "Balanced performance and cost"
+      },
+      "use_cases": ["coding", "analysis", "long context tasks", "daily workflows"],
+      "last_modified": "2025-12-06"
+    },
+    {
+      "id": "claude-haiku-4",
+      "provider": "Anthropic",
+      "family": "Claude",
+      "name": "Claude Haiku 4",
+      "release_date": "2024-11-04",
+      "modalities": ["text", "images", "documents"],
+      "features": {
+        "context_window": 200000,
+        "output_tokens": 8192,
+        "vision": true,
+        "streaming": true
+      },
+      "pricing": {
+        "input_per_1m_tokens": 1.00,
+        "output_per_1m_tokens": 5.00,
+        "currency": "USD",
+        "last_updated": "2025-12-06"
+      },
+      "performance": {
+        "speed_tier": "very_fast",
+        "notes": "Fastest model in Claude family"
+      },
+      "use_cases": ["high-volume tasks", "quick responses", "cost-sensitive applications"],
+      "last_modified": "2025-12-06"
+    },
+    {
+      "id": "gpt-4o",
+      "provider": "OpenAI",
+      "family": "GPT-4",
+      "name": "GPT-4o",
+      "release_date": "2024-05-13",
+      "modalities": ["text", "images", "audio", "video"],
+      "features": {
+        "context_window": 128000,
+        "output_tokens": 16384,
+        "vision": true,
+        "streaming": true
+      },
+      "pricing": {
+        "input_per_1m_tokens": 2.50,
+        "output_per_1m_tokens": 10.00,
+        "currency": "USD",
+        "last_updated": "2025-12-06"
+      },
+      "performance": {
+        "speed_tier": "fast",
+        "notes": "Multimodal model with real-time audio and vision capabilities"
+      },
+      "use_cases": ["coding", "real-time applications", "conversational AI", "multimodal tasks"],
+      "last_modified": "2025-12-06"
+    },
+    {
+      "id": "o1",
+      "provider": "OpenAI",
+      "family": "o1",
+      "name": "o1",
+      "release_date": "2024-12-05",
+      "modalities": ["text", "images"],
+      "features": {
+        "context_window": 200000,
+        "output_tokens": 100000,
+        "vision": true,
+        "streaming": false,
+        "reasoning": true
+      },
+      "pricing": {
+        "input_per_1m_tokens": 15.00,
+        "output_per_1m_tokens": 60.00,
+        "currency": "USD",
+        "last_updated": "2025-12-06"
+      },
+      "performance": {
+        "speed_tier": "slow",
+        "notes": "Reasoning model with extended thinking time"
+      },
+      "use_cases": ["complex reasoning", "math", "science", "coding"],
+      "last_modified": "2025-12-06"
+    },
+    {
+      "id": "gpt-5",
+      "provider": "OpenAI",
+      "family": "GPT-5",
+      "name": "GPT-5",
+      "release_date": null,
+      "modalities": ["text", "images"],
+      "features": {
+        "context_window": 400000,
+        "output_tokens": 128000,
+        "vision": true,
+        "streaming": true,
+        "reasoning": true
+      },
+      "pricing": {
+        "currency": "USD",
+        "input_per_1m_tokens": 1.25,
+        "output_per_1m_tokens": 10.0,
+        "notes": "Cached input priced at 0.13 USD per 1M tokens",
+        "last_updated": null
+      },
+      "performance": {
+        "speed_tier": null,
+        "notes": "Described as a previous intelligent reasoning model for coding and agentic tasks with configurable reasoning effort"
+      },
+      "use_cases": ["coding", "agentic_tasks", "reasoning_intensive_workflows"],
+      "last_modified": null
+    },
+    {
+      "id": "gpt-4.1",
+      "provider": "OpenAI",
+      "family": "GPT-4",
+      "name": "GPT-4.1",
+      "release_date": null,
+      "modalities": ["text", "images"],
+      "features": {
+        "context_window": 1047576,
+        "output_tokens": 32768,
+        "vision": true,
+        "streaming": true,
+        "reasoning": false
+      },
+      "pricing": {
+        "currency": "USD",
+        "input_per_1m_tokens": 2.0,
+        "output_per_1m_tokens": 8.0,
+        "notes": "Cached input priced at 0.50 USD per 1M tokens",
+        "last_updated": null
+      },
+      "performance": {
+        "speed_tier": null,
+        "notes": "Described as the smartest non-reasoning model"
+      },
+      "use_cases": ["general_purpose_chat", "analysis", "tool_use", "structured_output_generation"],
+      "last_modified": null
+    },
+    {
+      "id": "gemini-3-pro",
+      "provider": "Google",
+      "family": "Gemini",
+      "name": "Gemini 3 Pro",
+      "release_date": "2025-11-18",
+      "modalities": ["text", "images", "audio", "video"],
+      "features": {
+        "context_window": 1000000,
+        "output_tokens": 64000,
+        "vision": true,
+        "streaming": true,
+        "deep_think_mode": true
+      },
+      "pricing": {
+        "input_per_1m_tokens": 2.00,
+        "output_per_1m_tokens": 12.00,
+        "currency": "USD",
+        "last_updated": "2025-12-06",
+        "notes": "Pricing for prompts <= 200k tokens"
+      },
+      "performance": {
+        "speed_tier": "medium",
+        "notes": "Standard tier with Deep Think mode for complex reasoning"
+      },
+      "use_cases": ["advanced reasoning", "coding", "multimodal understanding", "large context"],
+      "last_modified": "2025-12-06"
+    },
+    {
+      "id": "grok-4.1",
+      "provider": "xAI",
+      "family": "Grok",
+      "name": "Grok 4.1",
+      "release_date": "2025-11-17",
+      "modalities": ["text", "images", "audio", "video"],
+      "features": {
+        "context_window": 2000000,
+        "output_tokens": 8192,
+        "vision": true,
+        "streaming": true,
+        "ultra_large_context": true
+      },
+      "pricing": {
+        "input_per_1m_tokens": 0.20,
+        "output_per_1m_tokens": 0.50,
+        "currency": "USD",
+        "last_updated": "2025-12-06",
+        "notes": "Fast API tier pricing"
+      },
+      "performance": {
+        "speed_tier": "fast",
+        "notes": "Optimized for massive-context workloads"
+      },
+      "use_cases": ["ultra-large context tasks", "cost-efficient processing", "long-document analysis"],
+      "last_modified": "2025-12-06"
+    },
+    {
+      "id": "deepseek-v3",
+      "provider": "DeepSeek",
+      "family": "DeepSeek",
+      "name": "DeepSeek-V3",
+      "release_date": "2024-12-26",
+      "modalities": ["text"],
+      "features": {
+        "context_window": 65536,
+        "output_tokens": 8192,
+        "vision": false,
+        "streaming": true
+      },
+      "pricing": {
+        "input_per_1m_tokens": 0.27,
+        "output_per_1m_tokens": 1.10,
+        "currency": "USD",
+        "last_updated": "2025-12-06"
+      },
+      "performance": {
+        "speed_tier": "fast",
+        "notes": "Extremely cost-effective for text-only tasks"
+      },
+      "use_cases": ["coding", "math", "cost-sensitive applications"],
+      "last_modified": "2025-12-06"
+    }
+  ]
+}

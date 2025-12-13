@@ -1,0 +1,37 @@
+{
+  "changelog": [
+    {
+      "date": "2025-12-06",
+      "type": "snapshot",
+      "description": "Created snapshot with 8 models - Baseline - 8 models",
+      "models_affected": []
+    },
+    {
+      "date": "2025-12-06",
+      "type": "snapshot",
+      "description": "Created snapshot with 9 models - December update - Added Llama 4, DeepSeek price drop",
+      "models_affected": []
+    },
+    {
+      "date": "2025-12-06",
+      "type": "snapshot",
+      "description": "Created snapshot with 8 models - Initial baseline snapshot - 8 frontier models",
+      "models_affected": []
+    },
+    {
+      "date": "2025-12-06",
+      "type": "initialization",
+      "description": "Initial database creation with 8 frontier models",
+      "models_affected": [
+        "claude-opus-4.5",
+        "claude-sonnet-4.5",
+        "claude-haiku-4",
+        "gpt-5.1",
+        "o1",
+        "gemini-3-pro",
+        "grok-4.1",
+        "deepseek-v3"
+      ]
+    }
+  ]
+}
