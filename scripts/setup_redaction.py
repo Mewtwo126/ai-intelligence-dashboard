@@ -34,7 +34,7 @@ def run(cmd: list, description: str) -> bool:
 # Step 1 – Install packages
 # ---------------------------------------------------------------------------
 
-REQUIREMENTS = Path(__file__).parent.parent / "requirements-redaction.txt"
+REQUIREMENTS = Path(__file__).parent / "requirements-redaction.txt"
 
 print("\nResume PII Redactor — Setup")
 print("=" * 60)
